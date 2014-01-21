@@ -1,0 +1,5 @@
+ndnd-tlv (0.3~dev1-ppa1~precise1) precise; urgency=low
+
+  * Initial release of Ubuntu packaging
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Tue, 21 Jan 2014 11:48:31 -0800
