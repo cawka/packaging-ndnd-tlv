@@ -1,0 +1,22 @@
+Source: ndnd-tlv
+Priority: extra
+Maintainer: Alexander Afanasyev <alexander.afanasyev@ucla.edu>
+Build-Depends: debhelper (>= 8.0.0), 
+ python (>= 2.7.0),
+ pkg-config,
+ ndnx-dev (>= 0.2),
+ ndn-cpp2-dev,
+ libboost-all-dev, libsqlite3-dev, libcrypto++-dev
+Standards-Version: 3.9.2
+Section: net
+Homepage: http://github.com/named-data/ndnd-tlv
+Vcs-Git: git://github.com/named-data/ndnd-tlv.git
+Vcs-Browser: http://github.com/named-data/ndnd-tlv.git
+
+Package: ndnd-tlv
+Section: net
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, ndnx, ndn-cpp2
+Description: NDN Forwarding Daemon with NDN-TLV packet format support
+Conflicts: ndnd
+Replaces: ndnd
