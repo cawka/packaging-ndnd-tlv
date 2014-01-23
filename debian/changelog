@@ -1,3 +1,9 @@
+ndnd-tlv (0.3~dev2-ppa5~precise1) precise; urgency=low
+
+  * Adding "Replaces" directive into control file
+
+ -- Alexander Afanasyev <alexander.afanasyev@ucla.edu>  Thu, 23 Jan 2014 14:02:56 -0800
+
 ndnd-tlv (0.3~dev2-ppa4~precise1) precise; urgency=low
 
   * Initial release of Ubuntu packaging

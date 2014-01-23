@@ -19,3 +19,4 @@ Architecture: i386 amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, ndnx, ndn-cpp2
 Description: NDN Forwarding Daemon with NDN-TLV packet format support
 Conflicts: ndnd
+Replaces: ndnd
